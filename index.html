@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 김민석</title>
+    <style>
+    .container {
+        background-color:  #f1f476;
+        padding: 0px 150px 0px 150px;
+        float: right;
+        margin-right: 10%;}
+    .line1 {background-color: #f49de6;}
+    h1 {text-align: center;}
+    .container h2, 
+    .container p {
+        text-align: left;
+        border-bottom: 1px solid black;
+        
+    }
+    .image-my {
+        width: 260px;
+        height: 350px;
+        background-image: url('https://i.ibb.co/XCwScxn/1.jpg');
+        background-size: contain;
+        position: relative;
+        left: 150px;
+        bottom: 500px
+        
+    }
+    .image-container {
+        width: 200px;
+        height: 200px; 
+        background-image:url('https://i.ibb.co/6rF8q8Z/image.jpg');
+        background-size: cover;
+        position:relative;
+        right:150px;
+        bottom: 500px;
+        float:right;
+        }
+    body{background-color: #A1E8Df;}
+    .circle1, .circle2, .circle3, .circle4 , .circle5 , .circle6 {
+        width:20px;
+        height:20px;
+        background-color: #25D2DD;
+        border-radius: 50%;
+    }
+    .text1 {
+        text-align: right;
+        position:relative;
+        bottom:570px;
+        right:20px;
+    }
+    .container2 h2 {
+        text-align: left;
+        border-bottom: 1px solid black;
+        position:relative;
+        bottom: 550px;
+        margin-left: 150px;
+        margin-right: 500px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Self introduction</h1>  
+    <div class="container">
+    <h2>이름: 김민석</h2>
+    <h2>생년월일: 2001년 8월 4일</h2>
+    <h2>학과: 통계학과</h2>
+    <h2 class="line1">좋아하는 음식: 미파닭</h2>
+    </div> <br>
+    <div class="circle1"></div><br><br>
+    <div class="circle2"></div><br><br>
+    <div class="circle3"></div><br><br><br><br><br><br><br><br>
+    <div class="circle4"></div><br><br>
+    <div class="circle5"></div><br><br>
+    <div class="circle6"></div>
+    <div class="image-my"></div>
+    <div class="image-container"></div>
+    <h2 class="text1" onmouseover="showtext()">vision</h2>
+    <div class="container2">
+        <h2>열심히 코딩공부를</h2>
+        <h2>하고싶습니다</h2>
+        <h2>앞으로도 열심히</h2>
+        <h2 onclick="alert('너무너무너무 재미있는데 너무너무 어렵네요 ㅎ')"><a href="#">해야하는데...(뒷내용을 보시려면 클릭)</a></h2>
+    </div>
+
+    <script>
+        function showtext(){
+            alert("항상최선을 다하자!");
+        }
+    </script>
+</body>
+</html>
